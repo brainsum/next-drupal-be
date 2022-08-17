@@ -1,0 +1,9 @@
+uuid: 0307854d-e7ed-4247-8bb6-33b9be5b2112
+langcode: en
+status: true
+dependencies: {  }
+id: node.article
+site_resolver: site_selector
+configuration:
+  sites:
+    local: local

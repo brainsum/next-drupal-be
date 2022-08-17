@@ -1,0 +1,30 @@
+uuid: fa196cc7-5c00-4799-9056-ad6465d25bbc
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_alignment
+field_name: field_alignment
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: image_left
+      label: 'Image left'
+    -
+      value: image_right
+      label: 'Image right'
+    -
+      value: image_background
+      label: 'Image background'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

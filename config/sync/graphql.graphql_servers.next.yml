@@ -1,0 +1,16 @@
+uuid: e849eaa2-66d7-498f-8929-eb1bd256eabe
+langcode: en
+status: true
+dependencies: {  }
+name: next
+label: Next
+endpoint: /graphql
+debug_flag: 0
+schema: example
+caching: true
+batching: true
+disable_introspection: false
+query_depth: null
+query_complexity: null
+schema_configuration: {  }
+persisted_queries_settings: {  }

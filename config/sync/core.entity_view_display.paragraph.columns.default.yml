@@ -1,0 +1,28 @@
+uuid: 97b76c89-f312-413a-8625-0947ce740e81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.layout_builder__layout
+    - paragraphs.paragraphs_type.columns
+  module:
+    - layout_builder
+    - layout_discovery
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content: {  }
+hidden:
+  layout_builder__layout: true

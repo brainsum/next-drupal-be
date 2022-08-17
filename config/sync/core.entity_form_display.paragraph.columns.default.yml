@@ -1,0 +1,16 @@
+uuid: 8873d8e0-d175-4a93-a139-d906fb3549a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.layout_builder__layout
+    - paragraphs.paragraphs_type.columns
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content: {  }
+hidden:
+  created: true
+  layout_builder__layout: true
+  status: true
